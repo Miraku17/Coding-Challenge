@@ -1,8 +1,7 @@
-# Problem Set X: Palindrome Pairs
+# Problem Set 1: Palindrome Pairs
 
 ## Problem Description
 
-Problem Description:
 Given a list of unique words, your task is to find all pairs of distinct indices (i, j) in the list so that
 the concatenation of the two words, i.e., words[i] + words[j], forms a palindrome.
 Example:
@@ -35,7 +34,12 @@ The goal is to find pairs of distinct indices (i, j) in a list of words such tha
    Ensure that pairs (i, j) are distinct and not duplicates of each other. For instance, the pair [0, 1] should be considered distinct from [1, 0].
 
 3. Solution Steps
-
+   1. Define the Palindrome Check Function - Created a function isPalindrome that takes a string and returns true if it is a palindrome, otherwise false.
+   2. Iterate Over Word Pairs using Palindrome Pairs Function
+   3. Concatenate Words
+   4. Check Concatenated Word
+   5. If the concatenated word is a palindrome, store the pair (i, j) in the result list.
+   6. Return the result list containing all valid index pairs.
 
 ## Instructions to Run the Code
 
