@@ -1,4 +1,4 @@
-# Problem Set X: Longest Increasing Subsequence
+# Problem Set 3: Longest Increasing Subsequence
 
 ## Problem Description
 
